@@ -1,0 +1,11 @@
+This app was produced 12/11/2022
+
+The dataset is the top 10 largest hotels in Las Vegas by ranking of rooms. The data is derived from: 
+https://easy.vegas/hotels/largest, last updated in April 2022. 
+
+Of note, there are many different ways to calculate this data. For example, in some lists, the Venetian is the largest hotel by number 
+of rooms, which includes the rooms under the Pallazo. This data set generally separates out the different hotels, with the exeption of 
+Resorts World, possibly because all three hotels are operating different wings of the same tower/building, vs different towers/buildings/hotel names.
+
+The app displays a minimum and maximum slider bar for number of rooms, and in an interactive response will return the inclusive list of hotels,
+rank, and number of rooms with the number of rooms specified.
