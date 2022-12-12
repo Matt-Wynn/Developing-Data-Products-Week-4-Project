@@ -1,9 +1,9 @@
 library(shiny)
 
 # Define server logic required to pass back dataframe
-shinyServer(function(input, output) {   #good keep
+shinyServer(function(input, output) { 
     hotel_list <- reactive ({
-      #reads info from slides
+      #reads info from sliders
       minRoom <- input$SliderRooms[1]
       maxRoom <- input$SliderRooms[2]
 
